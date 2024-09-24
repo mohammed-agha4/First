@@ -23,7 +23,9 @@ Route::get('/test', function() {
 
 
 
-
+Route::get('/test1', function() {
+    return 'fuck1';
+});
 
 
 
